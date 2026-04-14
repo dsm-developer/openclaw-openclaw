@@ -1,0 +1,41 @@
+# Ignore environment and secret files
+.env
+.env.*
+*.env
+*.pem
+*.key
+*.p12
+*.jks
+*.secret.json
+*credentials*.json
+*secrets*.json
+*.publishsettings
+*.azureauth
+*.azure
+auth.json
+secrets.json
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Node
+node_modules/
+
+# Editor
+.vscode/
+.idea/
+.DS_Store
+
+# Logs
+*.log
+
+# Build artifacts
+dist/
+build/
+
+# Local config
+*.local
+
+# GitHub Actions
+.github/workflows/*.local
